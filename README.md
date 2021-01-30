@@ -1,4 +1,77 @@
-# WebsiteProject
-Website project of algorIZM
+<!DOCTYPE html>
+<html>
+<head>
+	<title>algorIZM</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
 
-homePage.html -> The home page of the website
+<body>
+<!-- 	<div class="navBar">
+		<img src="Images\logo.png" class = "logo" alt="Logo">
+		<div class="navOption"><h2>Box1</h2></div>
+		<div class="navOption"><h2>Box2</h2></div>
+		<div class="navOption"><h2>Box3</h2></div>
+		<div class="navOption"><h2>Box4</h2></div>
+	</div> -->
+	<div class="bigLogoPlace">
+		<img class="bigLogo" src="Images\logo.png">
+	</div>
+	<div class="picInLogo">
+		<div class="pictures">
+			<a href="#IT"><img src="Images\meIOI.jpg" class="picOnLogo ITonLogo"></a>
+		</div>
+		<div class="pictures">
+			<a href="#ZH"><img src="Images\Zahra1.jpg" class="picOnLogo ZHonLogo"></a>
+		</div>
+		<div class="pictures">
+			<a href="#MI"><img src="Images\MI.jpeg" class="picOnLogo MIonLogo"></a>
+		</div>
+	</div>
+	<div id = "IT" class="articles IT">
+		<a href="IT.html" target="_blank" >
+			<img class="profilePic" src="Images\IT.jpg">
+			<h1 class="name">Ibrahim Taghizade</h1>
+		</a>
+		<p> I am Ibrahim Taghizade, 17 years old competitive programmer. I born in Tovuz, grew up in Baku. My poor memory and concentration created... <a href="IT.html" target="_blank">Read More</a></p>
+	</div>
+	<div id = "ZH" class="articles ZH">
+		<a href="ZH.html" target="_blank">
+			<img class="profilePic" src="Images\Zahra2.jpg">
+			<h1 class="name">Zahra Hajibayli</h1>
+		</a>
+		<p> My name is Zahra Hajibayli, I am 17 years old. I am studying at ADA university in computer science faculty... <a href="ZH.html" target="_blank">Read More</a></p>
+	</div>
+	<div id = "MI" class="articles MI">
+		<a href="MI.html" target="_blank">
+			<img class="profilePic" src="Images\MI.jpeg">
+			<h1 class="name">Murad Ibrahimli</h1>
+		</a>
+			<p> My name is Murad Ibrahimli, and I am 17 years old. I spend my time watching movies and reading books... <a href="MI.html" target="_blank">Read More</a></p>
+	</div>
+	<br><br>
+	<h1 class="projectHeader">Projects of algorIZM</h1>
+	<div class="projects">
+		<div class="project">
+			<div class="projectPic"><img src="Images\HourOfCode.png"></div>
+			<h1>Hour of Code</h1>
+			<div class="aboutProject">
+			<p>As team "algorIZM" our first project was the Hour of Code event. Because we want to share the exciting world of programming with children and even motivate them to be programmers, this event was too important for us. The session took place on the 12th of December at 11:00 AM, it was online, and we had 20 participants. We were happy that we could participate in this global event. <br><a href="https://drive.google.com/file/d/1XUmriNix5dl_D-QuuB4eAmD_gdonE6WV/view?usp=sharing">Highlights of the event</a></p></div>
+		</div>
+		<div class="project">
+			<div class="projectPic website"><img src="Images\projectWebSite.png"></div>
+			<h1>How websites work?</h1>
+			<div class="aboutProject">
+			<p>This website is the second project of algorIZM. We developed it as an online portfolio to share our finished and upcoming projects. We think this is the best way to show true potential of algorIZM. </p></div>			
+		</div>
+		<div class="project">
+			<div class="projectPic"><img src="Images\lego.jpg" class="robotics"></div>
+			<h1>Robotics</h1>
+			<div class="aboutProject">
+			<p>Robotics is a programming project that we are developing to control LEGO® Mindstorms® EV3 robot. We already made progress on project, but it will be fully finished until February 8. </p></div>	
+		</div>
+	</div>
+</body>
+
+</html>
