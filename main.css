@@ -1,0 +1,303 @@
+html{
+	scroll-behavior: smooth;
+}
+
+a:link {
+	color: #FFF;
+}
+
+.IT a:visited, .IT a:hover{
+	color: #d4a415;
+}
+
+.ZH a:visited, .ZH a:hover{
+	color: #0072ab;
+}
+
+.MI a:visited, .MI a:hover{
+	color: #e0001a;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #232a36;
+}
+
+h1{
+
+}
+
+
+a{
+	color: white;
+}
+
+.aboutProject{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.aboutUs{
+	color: white;
+	font-family: 'Roboto Mono';
+	font-size: 20px;
+	margin: auto;
+	width: 90%;
+}
+
+.articles p{
+	/*text-align: center;*/
+	width: 520px;
+	margin: auto;
+	margin-left: 350px;
+	color: #ebf1fa;
+	font-family: 'Roboto Mono';
+}
+
+.articles{
+	width: 1000px;
+	height: 250px;
+	box-shadow: 3px 3px 10px black;
+	display: block;
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.articlePic{
+	width: 500px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+.bigLogo{
+	position: relative;
+	width: 120%;
+	top: -650px;
+	left: -70px;
+	/*height: 375px;*/
+}
+
+.bigLogoPlace{
+	height: 375px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contact{
+	display: block;
+	height: 150px;
+	float: left;
+	margin-right: 100px;
+	width: 300px;
+}
+
+.contact img{
+	width: 40px;
+	height: 40px;
+}
+
+.contact p{
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	color: #bab5b5;
+}
+
+.info{
+	display: inline-block;
+	width: 850px;
+}
+
+.ITonLogo{
+	position: relative;
+	left: -50px;
+	height: 100%;
+}
+
+.main{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.MIonLogo{
+	width: 90%;
+}
+
+#MI{
+	height: 200px;
+}
+
+.navBar{
+	position: fixed;
+	background-color: #3ddfeb;
+	width: 100%;
+	height: 70px;
+	display: grid;
+	grid-template-columns: 50px repeat(4, 1fr);
+}
+
+.navOption{
+	color: #3c7d7c;
+	background-color: #1e283b;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 2px solid black;
+	border-right: 0;
+	height: 100%;
+	align-content: center;
+	text-align: center;
+}
+
+.name{
+	text-align: center;
+	font-family: 'Roboto Mono';
+	color: #dbd3e0;
+}
+
+.picInLogo{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 378px;
+	position: relative;
+	top: -382px;
+	margin-bottom: -350px;
+	margin-left: 50px;
+}
+
+.pictures{
+	overflow: hidden;
+}
+
+.picOnLogo:hover{
+	opacity: 1;
+	transition-duration: 1s;
+}
+
+.picOnLogo{
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+.profilePic{
+	/*height: 100%;*/
+	width: 200px;
+	float: left;
+	transition: 500ms;
+}
+
+.profilePic:hover{
+	opacity: 0.5;
+	transition-duration: 500ms;
+}
+
+.projects{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 500px;
+	margin-bottom: 100px;
+}
+
+.project{
+	background-color: #55585e;
+	box-shadow: 3px 3px 8px black;
+	border-radius: 10px;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Yusei Magic';
+	text-align: center;
+}
+
+.projectHeader{
+	text-align: center;
+	font-size: 70px;
+	color: #dbd3e0;
+	font-family: 'Yusei Magic';
+}
+
+.projectPic{
+	width: 350px;
+	height: 250px;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.projectPic img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.robotics{
+	position: relative;
+	top: -60px;
+}
+
+.shortInfo{
+	width: 500px;
+	margin: auto;
+}
+
+.specific{
+	display: inline-block;
+	width: 500px;
+}
+
+.specific p{
+	font-size: 20px;
+	color: #bab5b5;
+	font-family: 'Noto Sans JP';
+}
+
+#spIT span{
+	color: #d4a415;
+} 
+
+#spMI span{
+	color: #e0001a;
+}
+
+#spZH span{
+	color: #0072ab;
+}
+
+.top{
+	display: block;
+	height: 350px;
+	font-family: 'Roboto Mono';
+	color: #dbd3e0;
+}
+
+.top h1{
+	text-align: center;
+}
+
+.website{
+	margin-top: 70px;
+	margin-bottom: -68px;
+}
+
+.ZHonLogo{
+	width: 105%;
+	position: relative;
+	top: -200px;
+	left: -20px;
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: 100;
+	src: url(https://fonts.gstatic.com/s/robotomono/v12/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vu_ROW4.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
